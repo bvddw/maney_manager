@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Money manager</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="choice-element">
+        <h1>Money Manager</h1>
+        <button class="balance-button" id="check-balance">Check Balance</button>
+        <div class="withdraw-element">
+            <input class="withdraw-input" type="number" id="withdraw-amount" placeholder="Enter withdraw amount">
+            <select class="withdraw-type-input">
+                <option value="variant1">Utility and internet</option>
+                <option value="variant2">Product and markets</option>
+                <option value="variant3">Cafes and restaurants</option>
+                <option value="variant4">Entertainment and sports</option>
+                <option value="variant5">Transfer to the card</option>
+                <option value="variant6">Taxi</option>
+                <option value="variant7">Travel</option>
+                <option value="variant8">Charity</option>
+                <option value="variant9">Other</option>
+            </select>
+            <button class="withdraw-button" id="withdraw">Withdraw</button>
+        </div>
+        <div class="deposit-element">
+            <input class="deposit-input" type="number" id="deposit-amount" placeholder="Enter deposit amount">
+            <select class="deposit-type-input">
+                <option value="variant1">Salary</option>
+                <option value="variant2">Cashback</option>
+                <option value="variant3">Gifts</option>
+                <option value="variant4">Other</option>
+            </select>
+            <button class="deposit-button" id="deposit">Deposit</button>
+        </div>
+        <div class="history-element">
+            <button class="check-history-element" id="transaction-history">Check Transaction History</button>
+        </div>
+        <div class="main-statistic">
+            <button class="all-statistic" id="summary-statistic">Summary statistic</button>
+        </div>
+        <div class="addition-statistic">
+            <button class="check-withdraw-statistic-element" id="withdraw-statistic">Check withdraw statistic</button>
+            <button class="check-deposit-statistic-element" id="deposit-statistic">Check deposit statistic</button>
+        </div>
+        <div id="content" class="content-element"></div>
+    </div>
+    <script src="scripts/money_manager.js"></script>
+</body>
+</html>

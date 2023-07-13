@@ -1,0 +1,42 @@
+.choice-element {
+    color: black;
+    text-align: center;
+}
+
+.pick-element {
+    color: black;
+    text-decoration: none;
+}
+
+.balance-button,
+.deposit-element,
+.withdraw-element,
+.history-element,
+.main-statistic,
+.addition-statistic {
+    margin-bottom: 5px;
+}
+
+.deposit-input,
+.withdraw-input,
+.deposit-type-input,
+.withdraw-type-input {
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.balance-button,
+.withdraw-button,
+.deposit-button,
+.check-history-element,
+.check-withdraw-statistic-element,
+.check-deposit-statistic-element,
+.all-statistic {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
