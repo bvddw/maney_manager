@@ -150,10 +150,10 @@ class moneyManager {
       statisticElement.innerHTML = '<p>No withdraw history.</p>'
     } else {
       let statisticHTML = '<h2>Withdraw statistic:</h2>'
-      statisticHTML += `<p>All deposits: $${this.allWithdraw}</p>`
+      statisticHTML += `<p>All withdraw: $${this.allWithdraw}</p>`
       for (let key in this.withdrawStatictic) {
         if (this.withdrawStatictic[key]){
-          statisticHTML += `<p>${key} (${Math.round(this.withdrawStatictic[key] / this.allDeposit * 100)}%): $${this.withdrawStatictic[key]}</p>`
+          statisticHTML += `<p>${key} (${Math.round(this.withdrawStatictic[key] / this.allWithdraw * 100)}%): $${this.withdrawStatictic[key]}</p>`
         }
       }
       statisticElement.innerHTML = statisticHTML
